@@ -1,0 +1,253 @@
+body {
+    font-family: 'Roboto',  sans-serif;
+    margin: 0px;
+}
+/* logo decoration */
+.acent {
+    color: #2196F3;
+}
+/* ul decoration */
+.con,
+.menu-list, 
+.connection-to, 
+.list-merit, 
+.working-list, 
+.team-list, 
+.list-address {
+    list-style: none;
+}
+.link, .coll-us, .footer-contact {
+    text-decoration: none;
+}
+
+.logo, .footer-logo {
+    font-family: 'Raleway',  sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+/* Студія, портфоліо контакти */
+.menu-link  {
+    font-family: 'Roboto',  sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+/* контактні дані */
+.coll-us {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+.coll-us:hover,
+.coll-us:focus {
+    color: #2196F3;
+}
+.front {
+    background-color: #2F303A;
+}
+.texte {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.main-but {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+.main-but:hover,
+.main-but:focus {
+    background-color: #2196F3;
+}
+.merit-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.merit-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.h-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+    color: #212121; 
+}
+
+.activity {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,18;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.con-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer {
+    background-color: #2F303A;
+}
+.footer-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/*---------------- Portfoloio --------------*/
+.filter-but {
+    list-style-type: none;
+    display: flex;
+    margin-top: 94px;
+    margin-left: 495px;
+    padding: 0px
+}
+.but-list {
+    list-style-type: none;
+    margin-right: 8px;
+}
+.but-all, .but-page, .but-app, .but-des, .but-mark {
+    height: 38px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.but-all {
+    width: 73px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.but-all:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-all:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-page {
+    width: 128px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.but-page:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-page:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-app {
+    width: 145px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.but-app:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-app:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-des {
+    width: 103px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.but-des:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-des:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-mark {
+    width: 130px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.but-mark:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.but-mark:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.filter-position {
+    list-style-type: none; 
+}
+.target-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.target-but {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
