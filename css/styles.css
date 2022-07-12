@@ -6,6 +6,11 @@ body {
 .acent {
     color: #2196F3;
 }
+/* list-style-type: none;
+display: flex;
+margin-top: 94px;
+margin-left: 495px;
+padding: 0px */
 /* ul decoration */
 .con,
 .menu-list, 
@@ -20,13 +25,23 @@ body {
     text-decoration: none;
 }
 
-.logo, .footer-logo {
+.logo {
     font-family: 'Raleway',  sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+    text-decoration: none;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
     text-decoration: none;
 }
 /* Студія, портфоліо контакти */
@@ -43,7 +58,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -61,7 +76,7 @@ body {
 .texte {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
@@ -83,29 +98,36 @@ body {
 }
 .merit-name {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1,14;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .merit-p {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .h-work {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,16;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.h-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: #212121; 
 }
@@ -113,7 +135,7 @@ body {
 .activity {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -121,9 +143,10 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
 }
 .footer {
     background-color: #2F303A;
@@ -131,7 +154,7 @@ body {
 .footer-contact {
     font-style: normal;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -158,7 +181,7 @@ body {
     width: 73px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -174,7 +197,7 @@ body {
     width: 128px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
 }
